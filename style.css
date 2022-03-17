@@ -1,0 +1,136 @@
+/* formatage général */
+body {
+        width:auto;
+        padding:0;
+        margin:0 auto;
+        max-width:900px;
+        font-family:courier;
+        /* fixer le scroll */
+        overflow:scroll;
+        text-align:center;
+        font-size:16px;
+}
+
+p {
+        text-align:left;
+}
+
+p.introtext {
+        text-align:inherit;
+}
+
+/* formatage titres */
+h1, h2, h3, h4 {
+        text-align:center;
+}
+
+
+/* formatage liens du menu */
+      /* lien non visité */
+a:link {
+        color: white;
+        text-decoration:none;
+        font-weight:bold;
+}
+
+      /* lien visité */
+a:visited {
+        color: white;
+        text-decoration:none;
+        font-weight:bold;
+}
+
+
+
+/* menu de la page */
+ul.menu{
+        text-align: center;
+}
+
+
+li.menu1{
+        display: inline-block;
+        padding: 5px 10px;
+        background: #444;
+        color: white;
+        border-radius: 5px;
+}
+
+
+li.menu1:hover{
+        display: inline-block;
+        padding: 5px 10px;
+        background:red;
+        color: white;
+        border-radius: 5px;
+}
+
+/* swap on over youtube logo */
+    .yt {
+        width: 50px;
+        height: 100px;
+        position: relative;
+        display: inline-block;
+    }
+    .yt .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .yt:hover .img-top {
+        display: inline;
+    }
+
+
+/* swap on over facebook logo */
+    .fb {
+        width: 50px;
+        height: 100px;
+        position: relative;
+        display: inline-block;
+    }
+    .fb .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .fb:hover .img-top {
+        display: inline;
+    }
+
+
+    
+/* formatage ref de biography.html */
+.ref {
+        text-align:left;
+        font-style:italic;
+}
+
+
+
+/* formatage ref biography.html */
+ul.refbio {
+        text-align:left;
+        list-style-type:none;
+}
+
+
+/* formatage images du site */
+/*img {
+        max-width:800px;
+        width:100%;
+}
+*/
+
+#equipment img {
+        max-width: 250px;
+}
+
+.photo img {
+        max-width:800px;
+        width:100%;
+}
