@@ -1,4 +1,3 @@
-- changer domaine?? richardguilbass.com?
 - trouver une font et l'intégrer au site? (genre courrier mais en mieux)
 - Palatino (font?)
 - S'inspirer du menu et de la page https://yihui.org/en/
